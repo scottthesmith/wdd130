@@ -39,5 +39,36 @@ img {
 /*The following CSS rule selects all the <p > (paragraph) elements as the selector and applies the following declaration: 
 1. Padding between the paragraph content and the border is set to 10 pixels.*/
 p {
-    padding: 10px;
+    padding: 0;
+}
+
+main {
+    max-width: 400px;
+}
+
+main img {
+    width: 150px;
+    height: auto;
+}
+
+aside {
+    width: 800px;
+    margin: 3px;
+    border: 2px solid #444;
+    padding: 5px;
+    background-color: darkgrey;
+    color: white;
+    ;
+
+}
+
+aside img {
+    width: 200px;
+    height: auto;
+}
+
+footer {
+    margin-top: 15px;
+    border-top: 1px solid #444;
+    text-align: center;
 }
