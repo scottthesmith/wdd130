@@ -52,12 +52,13 @@ main img {
 }
 
 aside {
-    width: 800px;
+    width: 300px;
     margin: 3px;
     border: 2px solid #444;
     padding: 5px;
     background-color: darkgrey;
     color: white;
+    text-align: center;
     ;
 
 }
