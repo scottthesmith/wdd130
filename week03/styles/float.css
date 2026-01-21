@@ -17,10 +17,31 @@ p {
     box-shadow: 0 0 30px #777;
 }
 
+.sticky-header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 60px;
+  background-color: blue;
+  color: white;
+  z-index: 100;
+}
+
+.popup-window {
+  position: absolute;
+  top: 50px;
+  right: 20px;
+  width: 200px;
+  background-color: white;
+  border: 1px solid gray;
+  padding: 10px;
+}
+
 footer {
     border-top: 1px solid #555;
     padding-top: 5px;
     /* Remove the comment below and observe the results. */
 
-    /* clear: both; */
+    clear: both;
 }
