@@ -1,3 +1,17 @@
+* {
+    margin: 1px;
+    padding: 0;
+    box-sizing: border-box;
+    text-align: left;
+
+
+}
+
+body {
+    font-size: 16px;
+    font-family: Roboto, Arial, sans-serif;
+}
+
 /*The following CSS rule names the <nav > element as the selected element to apply two style declarations. 1.The background color will be the color "darkblue",
 which is a valid,
 named color. 2. Padding,
@@ -36,14 +50,9 @@ img {
     box-shadow: 0 0 30px gray;
 }
 
-/*The following CSS rule selects all the <p > (paragraph) elements as the selector and applies the following declaration: 
-1. Padding between the paragraph content and the border is set to 10 pixels.*/
-p {
-    padding: 0;
-}
 
 main {
-    max-width: 840px;
+    max-width: 650px;
 }
 
 main img {
@@ -52,6 +61,15 @@ main img {
     border: 2px solid black;
     padding: 1rem;
     box-shadow: 0 0 30px gray;
+    float: right;
+    margin: 0 0 1rem 1rem
+}
+
+/*The following CSS rule selects all the <p > (paragraph) elements as the selector and applies the following declaration: 
+1. Padding between the paragraph content and the border is set to 10 pixels.*/
+p {
+    padding: 0;
+    margin: 1rem;
 }
 
 aside {
@@ -62,17 +80,38 @@ aside {
     background-color: darkgrey;
     color: rgb(255, 255, 255);
     text-align: center;
-    
-
+    position: relative;
 }
 
 aside img {
     width: 200px;
     height: auto;
+    margin: 3rem;
+}
+
+aside h2 {
+    position: absolute;
+    top: 65px;
+    left: 99px;
+    font-size: small;
+   
 }
 
 footer {
     margin-top: 15px;
     border-top: 1px solid #444;
     text-align: center;
+}
+
+/* Class Selectors */
+.box {
+    margin: 1re;
+    border: 1px solid rgba(0, 0, 0, .1 );
+    background-color: #eee;
+    color: #000;
+
+}
+
+.indent {
+    padding-left: 1rem;
 }
