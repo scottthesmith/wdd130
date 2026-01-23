@@ -27,16 +27,24 @@ h1, h2 {
     color: var(--heading-color);
     box-sizing: border-box;
     background-color: var(--accent2-color);
-    color: hsl(190, 51%, 69%)
+    color: #ffffff
+
 
 }
 
-nav, p, section, article {
+nav, section, article {
     margin: 16px;
     padding: 8px;
+    color:#fff
+
 
 }
 
+p {
+     margin: 16px;
+    padding: 8px;
+    color:#000
+}
 .socialmedia a {
     text-decoration: none;
    
@@ -88,7 +96,11 @@ nav, p, section, article {
     background-color: #a3c4cb;
     margin: 1px;
     float: right;
+    color: #fff
     
-    
+}
+
+.hero article p {
+    color: #fff
 }
 
