@@ -9,6 +9,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    
 }
 
 body {
@@ -77,6 +78,7 @@ p {
     width: 100%;
     top: 300px;
     right: -16px;
+    box-sizing: border-box;
     background-color: #431949;
     opacity: 0.9;
 
