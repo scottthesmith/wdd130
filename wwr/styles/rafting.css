@@ -1,6 +1,6 @@
 :root {
 --accent2-color: rgb(30, 61, 141);
---heading-color: rgb(66, 65, 7);
+--heading-color: rgb(64, 52, 146);
 --body-font: Roboto, Arial, sans-serif;
 --heading-font: Arial, sans-serif;
 }
@@ -20,6 +20,7 @@ body {
 header, main, footer {
     width: 920px;
     margin: 0 auto;
+    color: var(--heading-color);
 }
 
 h1, h2 {
