@@ -27,7 +27,7 @@ h1, h2 {
     color: var(--heading-color);
     box-sizing: border-box;
     background-color: var(--accent2-color);
-    color: #ffffff
+    color: #ffffff;
 
 
 }
@@ -43,7 +43,7 @@ nav, section, article {
 p {
      margin: 16px;
     padding: 8px;
-    color:#000
+    color:#000;
 }
 .socialmedia a {
     text-decoration: none;
@@ -75,7 +75,6 @@ p {
     padding: 16px;
     text-align: center;
     opacity: 0.84;
-    color: #ffffff;
 }
 
 .hero article {
@@ -83,7 +82,7 @@ p {
     width: 100%;
     top: 300px;
     right: -16px;
-   background-color: #03414d;
+    background-color: #2f0337;
     opacity: 0.9;
 
 }
@@ -93,13 +92,12 @@ p {
     width: 175px;
     top: 10px;
     left: 730px;
-    background-color: #a3c4cb;
     margin: 1px;
     float: right;
-    color: #fff
+
     
 }
 
 .hero article p {
-    color: #fff
+    color: #fff;
 }
