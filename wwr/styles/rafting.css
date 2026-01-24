@@ -36,14 +36,11 @@ nav, section, article {
     margin: 16px;
     padding: 8px;
     color: var(--heading-color);
-
-
 }
 
 p {
      margin: 16px;
     padding: 8px;
-    color:#000;
 }
 .socialmedia a {
     text-decoration: none;
