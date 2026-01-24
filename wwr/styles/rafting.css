@@ -19,12 +19,10 @@ body {
 header, main, footer {
     width: 920px;
     margin: 0 auto;
-    color: var(--heading-color);
 }
 
 h1, h2 {
     font-family: var(--heading-font);
-    color: var(--heading-color);
     box-sizing: border-box;
     background-color: var(--accent2-color);
     color: #ffffff;
@@ -35,7 +33,7 @@ h1, h2 {
 nav, section, article {
     margin: 16px;
     padding: 8px;
-    color: var(--heading-color);
+    
 }
 
 p {
