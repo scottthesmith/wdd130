@@ -11,9 +11,11 @@ body {
 }
 
 div {
+    display:flex;
     margin: 1rem;
     border: 1px dashed;
     padding: 1rem;
+
 }
 
 .one {
@@ -23,7 +25,9 @@ div {
 
 .flex {
     background-color: #aba;
-    /* write declarations here */
+    display: flex;
+    justify-content: center;
+    align-items: center;
 
 }
 
@@ -32,9 +36,11 @@ div {
     /* enter declarations here */
 
 }
-
 .container2 {
     /* write declarations here */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
 
 }
 
@@ -44,6 +50,7 @@ div {
 }
 
 .container3 {
+    grid-template-rows: ;
     /* write declarations here */
 
 }
