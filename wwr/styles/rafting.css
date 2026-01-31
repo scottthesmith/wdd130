@@ -31,11 +31,10 @@ header, main, footer {
     
 }
 
- header img {
+header {
     display: grid;
-    align-items: left;
-    
- }
+    grid-template-columns: 4fr 4fr 4fr 4fr;
+}
     
 
 h1, h2 {
