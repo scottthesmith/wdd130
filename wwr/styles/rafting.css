@@ -212,16 +212,21 @@ li article {
     
 }
 
-.social_media {
+.socialmedia {
     display: flex;
     justify-content: flex-end;
     background-color: #431949;
     gap: 5px;
     margin-left: auto;
+
     
 }
 
-.social_media img {
+.social_media a {
+    text-decoration: none;
+}
+
+.socialmedia img {
 
     width: 32px;
     background-color: #431949;
