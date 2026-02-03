@@ -30,9 +30,12 @@ footer {
     width: 920px;
     margin: 0 auto;
     box-sizing: border-box;
-
+    
 }
 
+a {
+    text-decoration: none;
+}
 header,
 .grid {
     display: grid;
@@ -98,8 +101,9 @@ li {
     list-style-type: none;
 }
 
-li a {
-    color: #000
+li article {
+    color: #000;
+    text-decoration: none;
 }
 
 
@@ -193,23 +197,18 @@ li a {
     text-align: center;
 }
 
-.socialmedia div {
+footer {
     display: flex;
-    flex-direction: row-reverse;
+    justify-content: center;
+}
+
+footer p {
+    text-align: center;
     
 }
 
-
-
-.socialmedia a,
-nav a {
-
-    text-decoration: none;
-
-}
-
-.socialmedia img {
-
+footer img {
     width: 32px;
-    height: auto;
-} 
+    margin-left:;
+    
+}
