@@ -65,7 +65,7 @@ h2 {
     font-family: var(--heading-font);
     box-sizing: border-box;
     /* background-color: var(--accent2-color); */
-    color: black;
+    color: white;
     text-align: center;
 
 }
@@ -148,14 +148,17 @@ li article {
 
 .hero article img {
 
-    width: 150px;
-    padding: 5px;
+    width: 220px;
+    height: auto;
+    margin: 12px 9px 5px 12px;
     float: right;
+    
 
 }
 
 .hero article p {
     color: #fff;
+    padding-top: 7px;
 }
 
 .history {
@@ -227,10 +230,16 @@ footer p {
   
 
 }
+footer {
+    display: flex;
+    flex-direction: row;
+}
 
-footer nav a {
+footer img {
     width: 32px;
     background-color: #431949;
+
+
 
     
 }
