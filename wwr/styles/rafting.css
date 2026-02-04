@@ -199,40 +199,43 @@ li article {
     text-align: center;
 }
 
-.footer {
+footer {
     display: flex;
     background-color: #431949;
     
 
 }
 
-.footer p {
+footer p {
     color: #ffff;
-    align-items: auto;
+    background-color: #431949;
     
 }
 
 .socialmedia {
     display: flex;
-    justify-content: flex-end;
-    background-color: #431949;
     gap: 5px;
-    margin-left: auto;
+    text-align: center;
+    background-color: #431949;
 
     
 }
 
-.social_media a {
+.socialmedia a {
+
     text-decoration: none;
+  
+
 }
 
-.socialmedia img {
-
+footer nav a {
     width: 32px;
     background-color: #431949;
     align-items: right;
-
+    
 }
+
+
 
 /* div  {
     background-color: #431949;
