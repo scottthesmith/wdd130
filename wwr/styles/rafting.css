@@ -32,11 +32,6 @@ footer {
     box-sizing: border-box;
 
 }
-
-a {
-    text-decoration: none;
-}
-
 header,
 .grid {
     display: grid;
@@ -87,12 +82,14 @@ p {
     margin: 16px;
     padding: 8px;
     text-decoration: none;
+
 }
 
 nav ul {
 
     display: flex;
     justify-content: space-around;
+    
 
 
 }
@@ -102,7 +99,7 @@ li {
     list-style-type: none;
 }
 
-li article {
+li a {
     color: #000;
     text-decoration: none;
 }
@@ -237,7 +234,7 @@ footer {
 }
 
 footer img {
-    margin-top: 9px;
+    margin-top:px;
     width: 32px;
     background-color: #431949;
 
