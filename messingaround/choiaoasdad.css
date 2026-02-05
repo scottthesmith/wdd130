@@ -1,0 +1,8 @@
+body {
+
+}
+table {
+    background-color: gray;
+    border-style: double;
+    border-right: 2px solid black;
+}
