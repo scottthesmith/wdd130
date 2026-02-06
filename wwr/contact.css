@@ -72,7 +72,7 @@ section {
 
     margin: 16px;
     box-sizing: border-box;
-    border-right: #000;
+    border-right: 0;
     background-color: white;
 }
 
@@ -184,7 +184,7 @@ input {
 .radio-option {
     display: flex;
     flex-direction: row;
-    align-items: right;
+    align-items: center;
 }
 
 
@@ -337,7 +337,6 @@ footer nav {
 
 .serve div{
     display: flex;
-    gap: 16px;
     justify-content: space-between;
     gap: 50px;
 }
