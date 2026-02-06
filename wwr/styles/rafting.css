@@ -65,6 +65,11 @@ h2 {
 
 }
 
+main > div:not(.hero) h1,
+main > div:not(.hero) h2 {
+    color: #000;
+}
+
 nav,
 section,
 article {
@@ -96,6 +101,62 @@ nav ul {
     
 
 
+}
+
+.contact-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 16px;
+}
+
+.customer-info {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    width: 100%;
+}
+
+.customer-info label,
+.customer-info input,
+.customer-info textarea {
+    display: block;
+    width: 100%;
+}
+
+.customer-info .form-row,
+.customer-info .form-row-message,
+.customer-info .form-row-offset {
+    margin-bottom: 12px;
+}
+
+.customer-info fieldset {
+    border: none;
+    padding: 0;
+    margin: 0;
+}
+
+.customer-info .radio-list {
+    margin-top: 8px;
+}
+
+.customer-info .radio-option,
+.customer-info .subscribe {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.customer-info .radio-option input,
+.customer-info .subscribe input {
+    width: auto;
+}
+
+.customer-info .form-spacer {
+    display: none;
+}
+
+.customer-info button {
+    max-width: 100%;
 }
 
 li {
@@ -238,13 +299,25 @@ footer {
 }
 
 footer img {
-    margin-top:px;
+    margin-top: 0;
     width: 32px;
     background-color: #431949;
 
 
 
     
+}
+
+.serve div {
+    display: flex;
+    gap: 50px;
+    justify-content: space-between;
+}
+
+.serve figure {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 

@@ -116,7 +116,7 @@ aside {
 }
 
 button {
-    max-width: ;
+    max-width: 100%;
 }
 
 /* .hero {
@@ -286,6 +286,7 @@ footer {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    flex-direction: row;
 
 }
 
@@ -310,12 +311,9 @@ footer p {
 
 }
 
-footer {
-    flex-direction: row;
-}
 
 footer img {
-    margin-top: px;
+    margin-top: 0;
     width: 32px;
 
 
@@ -337,16 +335,16 @@ footer nav {
 
 }
 
-.serve div {
+.serve div{
     display: flex;
     gap: 16px;
     justify-content: space-between;
     gap: 50px;
-    image
 }
 
 .serve figure {
-    display: flex;
+
+   display: flex;
     flex-direction: column;
     align-items: center;
     
