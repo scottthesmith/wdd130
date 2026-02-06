@@ -80,7 +80,7 @@ article {
     background-color: #fff;
     box-sizing: border-box;
 
-    border-right: #000;
+    border-right: 0;
 }
 
 ul {
@@ -108,6 +108,10 @@ nav ul {
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 16px;
+}
+
+.map {
+    border: 0;
 }
 
 .customer-info {
@@ -275,7 +279,7 @@ footer {
 }
 
 footer p {
-    color: #ffff;
+    color: #fff;
     background-color: #431949;
     flex: 1;
     text-align: center;
