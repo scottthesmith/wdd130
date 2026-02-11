@@ -10,7 +10,9 @@ body {
     font-family: Roboto, Arial, sans-serif;
 }
 
-header, .grid, footer {
+header,
+.grid,
+footer {
     max-width: 840px;
     margin: 0 auto;
 }
@@ -40,8 +42,8 @@ nav a {
 }
 
 .grid main {
-   grid-column: 2/3;
-   margin: 1rem;
+    grid-column: 2/3;
+    margin: 1rem;
 }
 
 .grid aside {
@@ -80,9 +82,9 @@ h2 {
     left: 108px;
     font-size: small;
 }
-p {
 
-}
+p {}
+
 img {
     width: 150px;
     height: auto;
@@ -100,7 +102,7 @@ aside img {
 
 .box {
     margin: 1rem;
-    border: 1px solid rgba(0, 0, 0, .1 );
+    border: 1px solid rgba(0, 0, 0, .1);
     background-color: #eee;
     color: #000;
 
@@ -108,7 +110,7 @@ aside img {
 
 .indent {
     padding-left: 1rem;
-    
+
 
 }
 
