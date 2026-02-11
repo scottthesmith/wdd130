@@ -24,54 +24,50 @@
         </nav>
     </header>
 
-    <main class="home">
-        <div class="hero home-hero">
+    <main>
+        <div class="hero">
             <img src="images/hero.jpg" alt="A raft navigating a fast river.">
             <h1>Adventure Starts Here</h1>
         </div>
 
-        <section class="home-split">
-            <div class="home-cta">
-                <h2>Pick Your Perfect Run</h2>
-                <p>From mellow floats to heart-pounding rapids, our guides build trips for every
-                    crew. Get the details, compare routes, and reserve your spot on the river.</p>
-                <a class="btn" href="trips.html">Explore Trips</a>
+        <section class="history">
+            <h2>Plan Your Run</h2>
+            <div>
+                <article>
+                    <p>From mellow floats to heart-pounding rapids, our guides build trips for every
+                        crew. Compare routes and reserve your spot on the river.</p>
+                    <p><a href="trips.html">Explore Trips</a></p>
+                </article>
+                <form action="#" method="post">
+                    <p>River News and Offers</p>
+                    <label for="newsletter-name">Name</label>
+                    <input type="text" id="newsletter-name" name="name" required>
+                    <label for="newsletter-email">Email</label>
+                    <input type="email" id="newsletter-email" name="email" required>
+                    <button type="submit">Sign Up</button>
+                </form>
             </div>
-
-            <form class="newsletter" action="#" method="post">
-                <h2>River News and Offers</h2>
-                <label for="newsletter-name">Name</label>
-                <input type="text" id="newsletter-name" name="name" required>
-                <label for="newsletter-email">Email</label>
-                <input type="email" id="newsletter-email" name="email" required>
-                <button class="btn" type="submit">Sign Up</button>
-            </form>
         </section>
 
-        <section class="home-grid">
-            <div class="home-card">
-                <img src="images/happy.jpg" alt="Guests celebrating after a rafting run.">
-                <h2>Guides You Can Trust</h2>
-                <p>Our certified crew knows every bend and drop, so you can focus on the splash,
-                    the views, and the memories.</p>
-            </div>
-            <div class="home-card">
-                <img src="images/bearson.jpg" alt="A guide preparing a raft for launch.">
-                <h2>Trips for Every Skill Level</h2>
-                <p>Choose family-friendly floats, scenic mid-day runs, or expert-level rapids with
-                    technical lines and big waves.</p>
-            </div>
-            <div class="home-card">
-                <img src="images/kodiak.png" alt="Rafters enjoying calm water between rapids.">
-                <h2>Scenic River Camps</h2>
-                <p>Unwind at riverside camps with warm meals, stories by the fire, and sunrise views
-                    before the next stretch of adventure.</p>
-            </div>
-            <div class="home-card">
-                <img src="images/samsquatch.jpg" alt="Raft cutting through white water.">
-                <h2>Purpose-Built Gear</h2>
-                <p>We outfit every guest with top-tier safety gear so you can paddle with confidence
-                    and focus on the thrill.</p>
+        <section class="adventure">
+            <h2>Purpose and Offerings</h2>
+            <div>
+                <figure>
+                    <img src="images/happy.jpg" alt="Guests celebrating after a rafting run.">
+                    <figcaption>Guides you can trust on every bend and drop.</figcaption>
+                </figure>
+                <figure>
+                    <img src="images/bearson.jpg" alt="A guide preparing a raft for launch.">
+                    <figcaption>Trips for beginners, families, and expert paddlers.</figcaption>
+                </figure>
+                <figure>
+                    <img src="images/kodiak.png" alt="Rafters enjoying calm water between rapids.">
+                    <figcaption>Scenic river camps with warm meals and sunrise views.</figcaption>
+                </figure>
+                <figure>
+                    <img src="images/samsquatch.jpg" alt="Raft cutting through white water.">
+                    <figcaption>Purpose-built gear for comfort and safety.</figcaption>
+                </figure>
             </div>
         </section>
     </main>
