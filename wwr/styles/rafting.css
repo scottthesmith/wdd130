@@ -6,7 +6,6 @@
 
 }
 
-
 * {
 
     margin: 0;
@@ -14,8 +13,6 @@
     box-sizing: border-box;
 
 }
-
-
 
 body {
 
@@ -52,7 +49,6 @@ header img {
     height: 130px;
     margin: 35px;
 
-
 }
 
 h1,
@@ -66,8 +62,8 @@ h2 {
 
 }
 
-main>div:not(.hero) h1,
-main>div:not(.hero) h2 {
+main > div:not(.hero) h1,
+main > div:not(.hero) h2 {
     color: #000;
 }
 
@@ -99,8 +95,6 @@ nav ul {
 
     display: flex;
     justify-content: space-around;
-
-
 
 }
 
@@ -174,7 +168,6 @@ li a {
     text-decoration: none;
 }
 
-
 .hero {
 
     position: relative;
@@ -212,14 +205,12 @@ li a {
 
 }
 
-
 .hero article img {
 
     width: 220px;
     height: auto;
     margin: 12px 9px 5px 12px;
     float: right;
-
 
 }
 
@@ -247,7 +238,6 @@ li a {
     border-style: solid;
     padding-top: 10px;
     padding-bottom: 10px;
-
 
 }
 
@@ -297,7 +287,6 @@ footer p {
 
     text-decoration: none;
 
-
 }
 
 footer img {
@@ -305,10 +294,8 @@ footer img {
     width: 32px;
     background-color: #431949;
 
-
-
-
 }
+
 .serve h2 {
     color: #000;
 }
@@ -324,8 +311,6 @@ footer img {
     flex-direction: column;
     align-items: center;
 }
-
-
 
 /* div  {
     background-color: #431949;
