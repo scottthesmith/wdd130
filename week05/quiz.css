@@ -27,6 +27,7 @@ select,
 button {
     padding: .75rem;
     width: 350px
+    
 }
 
 button {
@@ -37,6 +38,7 @@ button {
     border-radius: 5rem;
     border: 1px solid rgb(0 0 0 / 10%);
     margin-top: 1rem;
+    border
     
 }
 
